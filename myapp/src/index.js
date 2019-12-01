@@ -1,12 +1,43 @@
-import React from 'react';
+import React,{Component} from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import Header from './component/Header';
+import NewsList from './component/NewsList';
+import JSON from './db.json';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+class App extends Component {
+    constructor(){
+        super()
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+        this.state={
+            news: JSON,
+            filtered: JSON
+        }
+    }
+
+    filterNews(userInput){
+        let output = this.state.news.filter((item) => {
+            return (item.title.toLowerCase().indexOf(userInput) > -1 || 
+                    item.feed.toLowerCase().indexOf(userInput) > -1)
+        })
+
+        this.setState({filtered:output})
+    }
+
+
+
+    render(){
+        return(
+            <React.Fragment>
+                <Header newsSearch={(data) => {this.filterNews(data)}}/>
+                <NewsList newsdata={this.state.filtered}></NewsList>
+            </React.Fragment>
+        )
+    }
+}
+
+
+ReactDOM.render(<App/>, document.getElementById('root'))
+
+/*
+Form parent to child we have to pass as props
+From child to parent we have to pass thorugh function(callback function)*/

@@ -128,3 +128,44 @@ Mac/Linux
 > Navigate to folder where you want to create using terminal
 > create-react-app myapp
 
+
+npm i -g @aakashdeveloper/create-node-app
+
+
+///////////////////////////
+    Component
+///////////////////////////
+Functional Component       ClassBase Component
+
+are light in weight         Heavy in weight as compare to functional
+Dumb component              Logical component
+Where we just have          Where we are going to deal with data and more logic invlove
+to display content with 
+less logic
+
+Cannot handle State          Can Handle State
+
+const app = () => { }        class app extends Component
+
+
+State & Props
+
+                Props
+Component A     ====>   Component B
+State="body"            State=
+
+
+<a href="">  abc   </abc>
+<img src="f" />
+
+
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/Aakashdeveloper/testapp1.git
+git push -u origin master
+
+
+git add .
+git commit -m "first commit"
+git push
