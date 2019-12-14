@@ -171,3 +171,22 @@ git commit -m "first commit"
 git push
 
 https://github.com/Aakashdeveloper/Edu_Dec_Reeact_Evng
+
+
+
+
+function robot(name){
+    this.name = name;
+    this.legs = 2;
+    this.color="white"
+}
+
+function human(name){
+    this.name = name;
+    this.hands = 2
+}
+
+
+human.prototype = new robot()
+
+

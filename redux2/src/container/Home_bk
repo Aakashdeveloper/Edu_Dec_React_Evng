@@ -1,0 +1,42 @@
+import React,{Component} from 'react';
+import { connect } from 'react-redux';
+import {latestNews,articleNews} from '../actions';
+import { bindActionCreators} from 'redux';
+
+import ArticleNews from '../component/Home/ArticleNews';
+import LatestNews from '../component/Home/LatestNews';
+import GalleryNews from '../component/Home/GalleryNews';
+
+class Home extends Component {
+    
+    // invoking
+    componentDidMount(){
+        this.props.latestNews();
+        this.props.articleNews();
+    }
+
+    render(){
+        return(
+            <div>
+                <LatestNews latestdata={this.props.articledata.latest}/>
+                <ArticleNews articleda={this.props.articledata.artdata}/>
+                <GalleryNews/>
+            </div>
+        )
+    }
+}
+
+//Will recive state
+function mapStateToprops(state){
+    console.log(state)
+    return{
+        articledata: state.articles
+    }
+}
+
+//Will dispatch action binding
+function mapDispatchToProps(dispatch){
+    return bindActionCreators({latestNews,articleNews},dispatch)
+}
+
+export default connect(mapStateToprops,mapDispatchToProps)(Home);
