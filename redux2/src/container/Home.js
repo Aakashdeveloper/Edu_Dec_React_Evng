@@ -14,6 +14,7 @@ class Home extends Component {
         this.props.dispatch(latestNews());
         this.props.dispatch(articleNews());
         this.props.dispatch(galleryNews());
+        
     }
 
     render(){

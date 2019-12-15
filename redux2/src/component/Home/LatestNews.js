@@ -7,7 +7,7 @@ const LatestNews = (props) => {
         if(latestdata){
             return latestdata.map((data) => {
                 return(
-                    <Link to="" className="item">
+                    <Link to={`/details/${data.id}`} className="item">
                         <div className="image_cover"
                             style={{background:`url(/images/articles/${data.img})`}}>
                                 <div className="description">

@@ -174,6 +174,7 @@ https://github.com/Aakashdeveloper/Edu_Dec_Reeact_Evng
 
 
 
+json-server --watch db.json --port 8900
 
 function robot(name){
     this.name = name;
@@ -190,3 +191,16 @@ function human(name){
 human.prototype = new robot()
 
 
+Post ==> adding the data
+Put => updating complete or major part of data
+Patch => small part of data
+
+CRUD
+
+var a = 10
+undefined
+a>10?"hii":"bie"
+"bie"var a = 10
+undefined
+a>10?"hii":"bie"
+"bie"
