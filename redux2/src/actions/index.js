@@ -1,4 +1,5 @@
 const url= 'http://localhost:8900';
+// process.env.base_url
 
 export function latestNews(){
     const output = fetch(`${url}/articles?_end=3`,{method:'GET'})

@@ -72,6 +72,10 @@ num.map((data) => {return data*1})
 num.filter((data) => {return data*1})
 (3) [1, 2, 3]
 
+var a  =[1, 2, 3]
+...a
+
+
 ////////////////////////////////////////
 npm => node package manager
 
@@ -204,3 +208,29 @@ a>10?"hii":"bie"
 undefined
 a>10?"hii":"bie"
 "bie"
+
+
+////////////////
+function printme(a){
+    for(i=0;i<a;i++){
+        console.log(i)
+    }
+}
+
+function* printme(a){
+    for(i=0;i<a;i++){
+        yield i
+    }
+}
+
+function myfun(obj){
+    return obj
+}
+
+var a = 'john'
+var john={
+    name:'john'
+}
+
+myfun(a)
+myfun.call(john)

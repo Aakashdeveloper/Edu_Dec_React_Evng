@@ -2,6 +2,7 @@ import React from 'react';
 
 function DisplayComponent(props){
 
+
     const renderList = ({newss}) => {
         if(newss){
             return newss.map((item) => {

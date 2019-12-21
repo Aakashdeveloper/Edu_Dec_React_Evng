@@ -2,6 +2,7 @@ import React,{useState,useEffect} from 'react';
 import DisplayComponent from './displayComponent';
 
 const url = "http://localhost:8900/news";
+
 function HookComponent(){
     const [title] = useState('Developer Funnel');
     const [data] = useState('Second State')
@@ -16,6 +17,7 @@ function HookComponent(){
             setNews(res)
         })
     },[news])
+
 
     return(
         <div className="jumbotron">
