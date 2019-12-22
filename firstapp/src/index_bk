@@ -1,0 +1,20 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Contact from './component/Contact';
+import Header from './component/Header';
+import About from './component/About'
+
+const App = () => {
+    return(
+        <React.Fragment>
+            <Header></Header>
+            <h1>My React Page</h1>
+            <h2>Second Heading</h2>
+            <Contact></Contact>
+            <About></About>
+        </React.Fragment>
+        
+    )
+}
+
+ReactDOM.render(<App/>, document.getElementById('root'))

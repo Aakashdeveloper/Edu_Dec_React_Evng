@@ -7,6 +7,7 @@ class MyProvider extends Component {
         city:'London'
     }
 
+
     render(){
         return(
             <MyContext.Provider value={{

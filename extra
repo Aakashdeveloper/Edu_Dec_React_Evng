@@ -234,3 +234,20 @@ var john={
 
 myfun(a)
 myfun.call(john)
+
+
+SOAP
+------------
+REST
+-----------
+GraphQL -> NodeJs
+
+React -apollo
+
+ npm i apollo-boost graphql react-apollo 
+ npm run build
+
+
+ docker build . -t ahanda205/edureact
+
+ docker run -p 8006:3000 ahanda205/edureact

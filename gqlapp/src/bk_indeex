@@ -1,0 +1,62 @@
+import React,{Component} from 'react';
+import ReactDOM from 'react-dom';
+import ApolloClient from 'apollo-boost';
+import gql from 'graphql-tag';
+import {Query} from 'react-apollo';
+
+const client = new ApolloClient({
+    uri:'http://localhost:8600/graphql'
+
+});
+
+const GET_PRODUCTS = gql`
+{
+    product(id:3){
+        name,
+        price
+    }
+}`;
+
+
+class ProductList extends Component{
+
+    constructor(props){
+        super()
+
+        this.state={
+            name:"hii"
+        }
+    }
+
+    onmyclick = () => {
+
+    }
+    
+    render(){
+        return(
+            <div>
+            <h1>{this.state.name}</h1>
+            <Query query={GET_PRODUCTS} client={client}>
+                {({loading,error,data}) => {
+                    if(loading) return <p>Loading....</p>;
+                    if(error) return <p>Error</p>
+                    console.log(data)
+                    return(
+                        <div>
+                            <p>GraphQL</p>
+                            <p>{data.product.name}</p>
+                            <p>{data.product.price}</p>
+                            <button></button>
+                        </div>
+                        
+                    )
+                }}
+            </Query>
+            </div>
+        )
+    }
+}
+
+
+ReactDOM.render(<ProductList/>, document.getElementById('root'));
+

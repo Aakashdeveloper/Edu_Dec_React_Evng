@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header Snapshot Header 1`] = `
+<header>
+  <div
+    className="logo"
+    onClick={[Function]}
+  >
+    React App
+  </div>
+  <center>
+    <input
+      onChange={[Function]}
+    />
+    <h3>
+      User text Here
+    </h3>
+  </center>
+  <hr />
+</header>
+`;
