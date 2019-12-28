@@ -2,10 +2,10 @@ import React from 'react';
 
 const Contact = () => {
     return(
-        <div>
+        <React.Fragment>
             <hr/>
             <h2>Second Component</h2>
-        </div>
+        </React.Fragment>
     )
 }
 

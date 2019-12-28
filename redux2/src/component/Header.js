@@ -5,7 +5,7 @@ const Header = () => {
     return(
         <header>
             <div>
-                <Link to="/">ReduX News APP</Link>
+              <h1>Test  React APP</h1>
             </div>
         </header>
     )

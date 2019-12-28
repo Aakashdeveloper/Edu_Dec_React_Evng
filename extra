@@ -249,5 +249,46 @@ React -apollo
 
 
  docker build . -t ahanda205/edureact
+ docker image ls
 
  docker run -p 8006:3000 ahanda205/edureact
+
+
+
+ Testing
+ Nginx => proxy server
+ LifeCycle Hooks
+
+ https://aakashhanda.me/
+
+ nginx.conf
+
+server {
+        listen       8081;
+        server_name  localhost;
+        location / {
+	     root   /var/www/react-app;
+         index  index.html index.htm;
+        }
+    }
+
+///////
+npm i enzyme --save-dev
+
+
+////////////
+Step to setup Native app
+////////
+Win
+> Run cmd as admin
+> npm i -g create-react-native-app
+> Navigate to folder where you want to create using cmd
+> create-react-native-app myapp
+> cd myapp
+> npm start
+
+Mac/Linux
+> open terminal
+> sudo npm i -g create-react-native-app
+> Navigate to folder where you want to create using terminal
+> create-react-native-app myapp
