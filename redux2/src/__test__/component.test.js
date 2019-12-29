@@ -7,4 +7,9 @@ describe('Snapshot component',() => {
         let tree = create(<Header/>)
         expect(tree.toJSON()).toMatchSnapshot();
     })
+    test('testing header component' ,() => {
+        let tree = create(<LatestNews/>)
+        expect(tree.toJSON()).toMatchSnapshot();
+    })
+    
 });

@@ -1,0 +1,133 @@
+db.productEntity.insertMany([
+    {
+        "_id" : 1,
+        "name" : "Rice Krispies Treats",
+        "rating" : 3.9,
+        "category" : "breakfast",
+        "price" : 8.98,
+        "delivery" : "Free 2-day delivery",
+        "image" : "Rice_Krispies_Treats.jpg",
+        "details" : "Kellogg’s Rice Krispies Treats Crispy Marshmallow Squares Bars 31.2oz 40 Ct"
+    },
+    {
+        "_id" : 2,
+        "name" : "Kellogg",
+        "rating" : 4.1,
+        "category" : "breakfast",
+        "price" : 3.78,
+        "delivery" : "2-day delivery",
+        "image" : "Kelloggs.jpg",
+        "details" : "Kellogg's Breakfast Cereal Mueslix, Original, Cereal Mueslix 15.3 Oz"
+    },
+    {
+        "_id" : 3,
+        "name" : "Quaker",
+        "rating" : 4.4,
+        "category" : "breakfast",
+        "price" : 13.58,
+        "delivery" : "Free 2-day delivery",
+        "image" : "Quaker.jpg",
+        "details" : "Quaker Instant Oatmeal Express Cups, Variety Pack, 12 Count"
+    },
+    {
+        "_id" : 4,
+        "name" : "Malt-O-Meal",
+        "rating" : 3.4,
+        "category" : "breakfast",
+        "price" : 3.98,
+        "delivery" : "2-day delivery",
+        "image" : "Malt_O_Meal.jpg",
+        "details" : "Malt-O-Meal Quick Cooking Wheat Hot Cereal, Chocolate, 36 Oz"
+    },
+    {
+        "_id" : 5,
+        "name" : "Lipton",
+        "rating" : 2.7,
+        "category" : "breakfast",
+        "price" : 1.58,
+        "delivery" : "2-day delivery",
+        "image" : "Lipton.jpg",
+        "details" : "Lipton Soup Secrets with Real Chicken Flavor Extra Noodle Soup Mix, 4.9 oz 2 ct"
+    },
+    {
+        "_id" : 6,
+        "name" : "Starbucks",
+        "rating" : 4.3,
+        "category" : "coffee",
+        "price" : 11.36,
+        "delivery" : "2-day delivery",
+        "image" : "Starbucks.jpg",
+        "details" : "(8 Cans) Starbucks Doubleshot Espresso & Cream Light, 6.5 Fl Oz"
+    },
+    {
+        "_id" : 7,
+        "name" : "Gevalia",
+        "rating" : 1.7,
+        "category" : "coffee",
+        "price" : 5.92,
+        "delivery" : "Free pickup today",
+        "image" : "Gevalia.jpg",
+        "details" : "Gevalia Vanilla Cold Brew Iced Coffee Concentrate, Caffeinated, 32 fl oz Bottle"
+    },
+    {
+        "_id" : 8,
+        "name" : "Dunkin' Donuts",
+        "rating" : 3.8,
+        "category" : "coffee",
+        "price" : 24,
+        "delivery" : "Free 2-day delivery",
+        "image" : "Dunkin_Donuts.jpg",
+        "details" : "Dunkin' Donuts Iced Coffee, Espresso, 13.7 Fl Oz, 12 Count"
+    },
+    {
+        "_id" : 9,
+        "name" : "Starbucks Cold",
+        "rating" : 1.3,
+        "category" : "coffee",
+        "price" : 21,
+        "delivery" : "Free 2-day delivery",
+        "image" : "Starbucks_Cold.jpg",
+        "details" : "Starbucks Cold Brew Coffee, Black Sweetened, 11 oz Glass Bottles, 6 Count"
+    },
+    {
+        "_id" : 10,
+        "name" : "Kraft",
+        "rating" : 2.3,
+        "category" : "BoxedMeals",
+        "price" : 6.48,
+        "delivery" : "2-day delivery",
+        "image" : "Kraft.jpg",
+        "details" : "Kraft Easy Mac Original Flavor Macaroni and Cheese Dinner Cups, 16.4 oz"
+    },
+    {
+        "_id" : 11,
+        "name" : "Chef Boyardee",
+        "rating" : 3.6,
+        "category" : "BoxedMeals",
+        "price" : 6.75,
+        "delivery" : "2-day delivery",
+        "image" : "Chef_Boyardee.jpg",
+        "details" : "(2 pack) Chef Boyardee Mini Ravioli, Mini Ravioli 15 oz, 4 Pack, 16.4 oz"
+    },
+    {
+        "_id" : 12,
+        "name" : "Kraft Dinners",
+        "rating" : 4,
+        "category" : "BoxedMeals",
+        "price" : 6.75,
+        "delivery" : "Free 2-day delivery",
+        "image" : "Kraft_Dinners.jpg",
+        "details" : "(4 Pack) Velveeta Shells & Cheese Made with 2% Milk Cheese, 12 oz Box"
+    },
+    {
+        "_id" : 13,
+        "name" : "Macaroni",
+        "rating" : 2.4,
+        "category" : "BoxedMeals",
+        "price" : 3.24,
+        "delivery" : "Free 1-day delivery",
+        "image" : "Macaroni.jpg",
+        "details" : "Great Value Thick & Creamy Macaroni & Cheese, 7.25 oz, 6 count"
+    }
+]
+)

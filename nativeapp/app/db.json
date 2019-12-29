@@ -1,0 +1,103 @@
+[
+    {
+        "_id" : 1,
+        "name" : "Rice Krispies Treats",
+        "rating" : 3.9,
+        "category" : "breakfast",
+        "price" : 8.98,
+        "delivery" : "Free 2-day delivery",
+        "image" : "https://i.ibb.co/LnYwYBV/Rice-Krispies-Treats.jpg",
+        "details" : "Kellogg’s Rice Krispies Treats Crispy Marshmallow Squares Bars 31.2oz 40 Ct"
+    },
+
+    {
+        "_id" : 2,
+        "name" : "Kellogg",
+        "rating" : 4.1,
+        "category" : "breakfast",
+        "price" : 3.78,
+        "delivery" : "2-day delivery",
+        "image" : "https://i.ibb.co/7jGz8zJ/Kelloggs.jpg",
+        "details" : "Kellogg's Breakfast Cereal Mueslix, Original, Cereal Mueslix 15.3 Oz"
+    },
+    {
+        "_id" : 3,
+        "name" : "Quaker",
+        "rating" : 4.4,
+        "category" : "breakfast",
+        "price" : 13.58,
+        "delivery" : "Free 2-day delivery",
+        "image" : "https://i.ibb.co/PMtPq5N/Quaker.jpg",
+        "details" : "Quaker Instant Oatmeal Express Cups, Variety Pack, 12 Count"
+    },
+    {
+        "_id" : 4,
+        "name" : "Malt-O-Meal",
+        "rating" : 3.4,
+        "category" : "breakfast",
+        "price" : 3.98,
+        "delivery" : "2-day delivery",
+        "image" : "https://i.ibb.co/F57x5Nz/Malt-O-Meal.jpgg",
+        "details" : "Malt-O-Meal Quick Cooking Wheat Hot Cereal, Chocolate, 36 Oz"
+    },
+    {
+        "_id" : 5,
+        "name" : "Lipton",
+        "rating" : 2.7,
+        "category" : "breakfast",
+        "price" : 1.58,
+        "delivery" : "2-day delivery",
+        "image" : "https://i.ibb.co/K2Wc1Tt/Lipton.jpg",
+        "details" : "Lipton Soup Secrets with Real Chicken Flavor Extra Noodle Soup Mix, 4.9 oz 2 ct"
+    },
+    {
+        "_id" : 6,
+        "name" : "Starbucks",
+        "rating" : 4.3,
+        "category" : "coffee",
+        "price" : 11.36,
+        "delivery" : "2-day delivery",
+        "image" : "https://i.ibb.co/KLjdwBv/Starbucks.jpg",
+        "details" : "(8 Cans) Starbucks Doubleshot Espresso & Cream Light, 6.5 Fl Oz"
+    },
+    {
+        "_id" : 10,
+        "name" : "Kraft",
+        "rating" : 2.3,
+        "category" : "BoxedMeals",
+        "price" : 6.48,
+        "delivery" : "2-day delivery",
+        "image" : "https://i.ibb.co/FDrLVtS/Kraft.jpg",
+        "details" : "Kraft Easy Mac Original Flavor Macaroni and Cheese Dinner Cups, 16.4 oz"
+    },
+    {
+        "_id" : 11,
+        "name" : "Chef Boyardee",
+        "rating" : 3.6,
+        "category" : "BoxedMeals",
+        "price" : 6.75,
+        "delivery" : "2-day delivery",
+        "image" : "https://i.ibb.co/pv4MTBt/Chef-Boyardee.jpg",
+        "details" : "(2 pack) Chef Boyardee Mini Ravioli, Mini Ravioli 15 oz, 4 Pack, 16.4 oz"
+    },
+    {
+        "_id" : 12,
+        "name" : "Kraft Dinners",
+        "rating" : 4,
+        "category" : "BoxedMeals",
+        "price" : 6.75,
+        "delivery" : "Free 2-day delivery",
+        "image" : "https://i.ibb.co/XbdrpRd/Kraft-Dinners.jpg",
+        "details" : "(4 Pack) Velveeta Shells & Cheese Made with 2% Milk Cheese, 12 oz Box"
+    },
+    {
+        "_id" : 13,
+        "name" : "Macaroni",
+        "rating" : 2.4,
+        "category" : "BoxedMeals",
+        "price" : 3.24,
+        "delivery" : "Free 1-day delivery",
+        "image" : "https://i.ibb.co/qdFDb18/Macaroni.jpg",
+        "details" : "Great Value Thick & Creamy Macaroni & Cheese, 7.25 oz, 6 count"
+    }
+]
