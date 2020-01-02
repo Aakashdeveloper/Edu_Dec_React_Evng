@@ -292,3 +292,4 @@ Mac/Linux
 > sudo npm i -g create-react-native-app
 > Navigate to folder where you want to create using terminal
 > create-react-native-app myapp
+
